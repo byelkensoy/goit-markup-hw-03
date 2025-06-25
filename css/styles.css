@@ -352,12 +352,12 @@ button:hover, button:focus {
 
 .footer .container {
     display: flex;
+    height: 100%;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
     margin-top: 120px;
-    padding-left: 15px;
-    padding-right: 15px;
+
 }
 
 .footer-text {
@@ -367,7 +367,7 @@ button:hover, button:focus {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
-    margin: 0 auto;
+    margin: 0 0;
 
     
 }
